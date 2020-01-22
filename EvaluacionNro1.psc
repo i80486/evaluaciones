@@ -1,5 +1,5 @@
 funcion prom <- secuencial(n1,n2,n3)
-	escribir "Ingrese 3 numeros, el programa mostrará el promedio"
+	escribir "Ingrese 3 numeros, el programa mostrarÃ¡ el promedio"
 	leer n1
 	leer n2
 	leer n3
@@ -13,10 +13,10 @@ funcion ba <- sientonces(nom,gen)
 	escribir "Ingrese genero: 1 para hombre y 2 para mujer"
 	leer gen
 	si gen==1 entonces
-		escribir "El baño asignado para ",nom," es el de hombres"
+		escribir "El baÃ±o asignado para ",nom," es el de hombres"
 	FinSi
 	si gen==2 Entonces
-		escribir "El baño asignado para ",nom," es el de mujeres"
+		escribir "El baÃ±o asignado para ",nom," es el de mujeres"
 	FinSi	
 FinFuncion
 
@@ -26,7 +26,7 @@ funcion bauso <- sientoncesanidado(nom,gen,uso)
 	escribir "Ingrese genero: 1 para hombre y 2 para mujer"
 	leer gen
 	si gen==1 entonces
-		escribir "El baño asignado para ",nom," es el de hombres"
+		escribir "El baÃ±o asignado para ",nom," es el de hombres"
 		escribir "Si desea utilizar el WC ingrese 1, si desea utilizar la DUCHA ingrese 2"
 		leer uso
 		si uso==1 Entonces
@@ -37,7 +37,7 @@ funcion bauso <- sientoncesanidado(nom,gen,uso)
 		FinSi
 	FinSi
 	si gen==2 Entonces
-		escribir "El baño asignado para ",nom," es el de mujeres"
+		escribir "El baÃ±o asignado para ",nom," es el de mujeres"
 		escribir "Si desea utilizar el WC ingrese 1, si desea utilizar la DUCHA ingrese 2"
 		leer uso
 		si uso==1 Entonces
@@ -119,7 +119,7 @@ funcion rep <- repetitivapara(nom,c)
 		n=n+1
 	finpara
 	si v==0 Entonces
-		escribir "No se repitió ningun nombre"
+		escribir "No se repitiÃ³ ningun nombre"
 	FinSi
 FinFuncion
 
